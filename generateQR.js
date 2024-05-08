@@ -7,8 +7,8 @@ async function getUrlInput() {
     {
       type: 'input',
       name: 'url',
-      message: 'Enter a URL to generate a QR code:',
-      validate: input => input.startsWith('http://') || input.startsWith('https://') ? true : 'Please enter a valid URL!'
+      message: 'Enter a URL:',
+      validate: input => input.startsWith('http://') || input.startsWith('https://') ? true : 'Please enter a valid URL:'
     }
   ]);
   return answers.url;
