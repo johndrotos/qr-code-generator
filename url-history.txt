@@ -1,2 +1,3 @@
 https://github.com/johndrotos?tab=repositories
 https://www.gradescope.com/login
+https://www.cs.columbia.edu/~josh/cs-theory/
